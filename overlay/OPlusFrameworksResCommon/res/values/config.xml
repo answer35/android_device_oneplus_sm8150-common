@@ -108,4 +108,8 @@
          available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
 
+    <!-- Ignore post running notifications for selected apps -->
+    <string-array name="config_postNotificationIgnoredApps" translatable="false">
+        <item>com.oneplus.camera</item>
+    </string-array>
 </resources>
